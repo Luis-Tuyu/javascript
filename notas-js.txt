@@ -10,3 +10,30 @@ VARIABLES
 -no diferencia entre enteros y flotantes
 -puedes crear una variable sin la palabra reservada "var", pero es una mala práctica
 -concatenacion se utiliza con un signo de "+"
+
+*************VIDEO 2 Número y operaciones aritméticas**************
+-podemos sumar un flotante con un entero sin convertirlo
+-comentarios de bloque /**/
+-operadores aritméticas
+    *Division /
+    *suma +
+    *resta -
+    *modulo %
+-ejemplo de modulo para obtener número par e impar
+-Ejemplos usando Math
+
+*//cuadrado de un número o elevar a una potencia
+console.log(Math.pow(2,4));
+//el 4 lo eleva ala potencia 2
+    
+    redondear un número
+//entero más cercano
+console.log(Math.ceil(0.2));
+//redondear al entero más lejano
+console.log(Math.floor(0.3));
+//se imprime el número PI
+console.log(Math.PI);
+//genera números aleatorios
+console.log(Math.random());
+//raiz cuadrada
+console.log("Raiz cuadrad de 4= "+ Math.sqrt(4));
