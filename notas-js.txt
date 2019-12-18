@@ -1,0 +1,12 @@
+curso de javascript con código facilito.
+estamos usando codepen: para simulando un servidor;
+
+alert-
+-console.log("mostrar mensa");
+-document.querySelector("body").innerHTML="hola mundo";
+-no debemos declarar tipos en javascript
+
+VARIABLES
+-no diferencia entre enteros y flotantes
+-puedes crear una variable sin la palabra reservada "var", pero es una mala práctica
+-concatenacion se utiliza con un signo de "+"
