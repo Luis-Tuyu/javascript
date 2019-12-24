@@ -37,3 +37,45 @@ console.log(Math.PI);
 console.log(Math.random());
 //raiz cuadrada
 console.log("Raiz cuadrad de 4= "+ Math.sqrt(4));
+
+        **video 3 cadenas**
+operaciones básicas con una cadena, son las concatenaciones
+se hace con el operador +
+
+//obtener la longitud de la cadena
+EJEMPLO:    *var a="Cadena de texto";
+            console.log(a.length);
+
+//buscar un texto dentro de una cadena de caracteres
+// cuando la cadena no se encuentra desprende un -1, si la encuentra devuelve
+//la posicion donde inicia la cadena  
+
+EJEMPLO:    
+            var usuario="xd luis";
+            if(usuario.indexOf("luis") !=-1)
+            {
+            console.log("Bienvenido "+usuario);
+            console.log(usuario.indexOf("luis"));
+            }else{
+                console.log("ERROR, no eres el usuario");
+            }
+
+//acceder a un caracter por meidod e un arreglo
+EJMPLO: 
+        var nombre="Luis FRancico TUyu padron";
+        console.log(nombre[0]);
+
+///acceder caracter por medio del  método chartat
+var nombre="Luis";
+console.log(nombre.charArt(0));
+
+//reeemplazar una letra, solo reemplaza la primera letra o caracter
+var r=nombre.replace("a","*");
+
+//obtener una parte de la cadena
+var r2=nombre.slice(1,nombre.length-1);
+console.log(r2);
+
+//mayúsuclas, minúsculas
+console.log(nombre.toUpperCase());
+console.log(nombre.toLowerCase());
