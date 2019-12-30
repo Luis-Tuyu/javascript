@@ -125,3 +125,8 @@ var num1= 30;
 
 -ciclo do while
     -siempre se ejecutara una vez, aunue la condicio no se cumpla
+
+***********VIDEO 6 ciclo for*************
+-contine 3 parametros, es el inicio ,la condicion y el incremento o decremento
+-basicamente es como los for de java 
+
