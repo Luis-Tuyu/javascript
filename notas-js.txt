@@ -115,4 +115,13 @@ var num1= 30;
             {console.log("correcto");}
 
             RESULTADO: true, porque no son iguales, ya  que son 2 tipos de datos distintos
-            
+
+********VIDEO 5 ciclo while***********+
+ -se sigue ejecutando hasta que se cumpla la condición  
+ -palabras reservadas
+    -break: termina el ciclo 
+    -continue: se salta a la siguiente iteracion dentro del ciclo
+              
+
+-ciclo do while
+    -siempre se ejecutara una vez, aunue la condicio no se cumpla
