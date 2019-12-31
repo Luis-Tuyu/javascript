@@ -161,4 +161,9 @@ le asigno un valor.
                     console.log("La variable no tiene valor");
                 }else{
                     console.log("La variable no existe o está vacia");
-                }     
+                }
+
+
+*********Video 8 adivina el número secreto-práctica*******     
+-convertimos un dato a entero con parseInt
+-promt obtenemos datos de la consola, este retorna un string

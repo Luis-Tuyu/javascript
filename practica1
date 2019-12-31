@@ -1,0 +1,29 @@
+//adivinar el número secreto y colocarlo en la ventana que se despliega
+
+var min=1;
+var max=100;
+var num_sec= Math.random()*(max-min) + min;
+console.log(num_sec);
+//convertirlo a entero
+num_sec=parseInt(num_sec);
+console.log(num_sec);
+
+var mensaje="Ingresa un número";
+while(true)
+      {
+     var num_us_sec = prompt(mensaje,"0");
+num_us_sec = parseInt(num_us_sec);
+if(num_us_sec === num_sec)
+  {
+    alert("ganaste adivinase el número secreto");
+    break;
+  }else if(num_us_sec === 101){ 
+      break;
+    }
+else if( num_us_sec >num_sec){
+    mensaje="lo sentimos, el número ue elegiste es mayor al número secreto";
+  }else if(num_us_sec < num_sec)
+    {
+      mensaje="lo sentimos el número  que elegiste el menor al npumero secreto";
+    }
+      }
