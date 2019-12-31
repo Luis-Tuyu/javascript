@@ -130,3 +130,35 @@ var num1= 30;
 -contine 3 parametros, es el inicio ,la condicion y el incremento o decremento
 -basicamente es como los for de java 
 
+*********VIDEO 7*********
+typeof: identificar el tipo de variable que tiene, de iugal manera podemos ver si esta declarado una variable
+    Ejemplo: var nu=true;
+            console.log(typeof nu);
+
+
+     Ejemplo 2: ver si esta declarado un variablevar num=2;
+                if(typeof num == "undefined")
+                {
+                    console.log("variable no esta defiida, ERROR");
+                }else{
+                    console.log("Generando número aleatorio");
+                    var aux=Math.random();
+                    console.log(aux); 
+                }
+null: la variable existe y en un momento,explicitament se declaro a null.
+        EJEMPLO: 
+            var num=null;
+            if(num === null)
+            {
+                console.log("La variable no tiene valor");
+            }
+undefined: devuelve este dato cuanto la variable no esta declarada o se declaro pero jamas se 
+le asigno un valor.     
+            EJEMPLO: 
+               var num; //esta declarada pero no tiene valor, será indefinida.
+                if(num === null)
+                {
+                    console.log("La variable no tiene valor");
+                }else{
+                    console.log("La variable no existe o está vacia");
+                }     
