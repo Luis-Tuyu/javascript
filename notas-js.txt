@@ -167,3 +167,11 @@ le asigno un valor.
 *********Video 8 adivina el número secreto-práctica*******     
 -convertimos un dato a entero con parseInt
 -promt obtenemos datos de la consola, este retorna un string
+
+**********Video 9 seleccionar elementos del DOM****
+DOM: manipular partes del Html con Javascript
+-getElementById: podemos manipular el cualquier etiqueta de html, que tenga esa etiqueta
+-document.getElementsByClassName("mi_clase"), se obtiene por el nombre 
+de la clase 
+-document.getelementByTagname("div"), este método nos sirve para encontrar todas 
+las etiquetas con el nombre dado. 
