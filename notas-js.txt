@@ -198,3 +198,15 @@ Listeners: buscamos elementos en el DOM
 -arr.unshift(2); ,  agrega el valor al inicio del arreglo
 -arr.shift(); , quita el primer elemento del arreglo
 -arr.pop(), elimina el último elemento del arreglo
+
+*************************video 12,  funciones****************
+-se declaran con la palabra reservada function
+- function nombre_funcion (parametro1, parametro2)
+{
+    //codigo de la funcion
+}
+-return, retorna un valor especificado, puede ser un npumero o una cadena
+-checar si una variable tiene valor, por ejemplo:
+    b = b || 0; checa si b, tiene valor, pero si no, será undefined y por lo tanto, 
+    esta será falso, entonces se le asignará 0;
+    Si ya tiene valor, entonces ignora el 0
