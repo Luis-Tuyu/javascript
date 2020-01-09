@@ -175,3 +175,26 @@ DOM: manipular partes del Html con Javascript
 de la clase 
 -document.getelementByTagname("div"), este método nos sirve para encontrar todas 
 las etiquetas con el nombre dado. 
+
+*****************Video 10, eventos*********
+eventos: sirve para enlazar acciones de javascrip con html.
+    -onmouseover: al pasar un elemento encima del boton, realiza una funcion de javascript
+    -onmouseout: cuando quito el mouse del boton, se dispara el evento
+
+Listeners: buscamos elementos en el DOM 
+    -document.getElementById("mi_div").addEventListener("click",another_clic,false)
+    esta linea de codigo, primero obtiene el id del DOM, luego hay que poner
+    el nombre de la funcion y de último el parametro para saber, cual alert, ejecutaremos
+    primero, en dado caso que ejecutemos 2 alert.
+
+**************************video 11, arreglos***********************
+-pueden almacenar cualquier valor que le pasemos
+-var arreglo= new Array(20); //creacion  de un arreglo vacio
+-var arr=[10,20,30]; //recomendado definirlo de esta manera
+-pueden ser de varios tipos, string, innerHTML
+-son objetos
+-arr.push(10); , nos permite colocar elementos al final del arreglo
+-console.log(arr.length);, nos permite ver la cantidad de elementos del arreglo
+-arr.unshift(2); ,  agrega el valor al inicio del arreglo
+-arr.shift(); , quita el primer elemento del arreglo
+-arr.pop(), elimina el último elemento del arreglo
