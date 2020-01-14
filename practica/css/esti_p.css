@@ -1,7 +1,8 @@
 .tit1{
-    color: red;
+    color:white;
     text-align: center;
     font-size: 50px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 
 }
 
@@ -22,4 +23,69 @@
 }
 .text2{
     font-size: 20px;
+    position: relative;
+    top: 0px; /* es mi "y"*/
+    left:350px /*es x*/
+}
+.morado{
+    font-size: 20px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    background-color: white;
+    border: 0px;
+    height: 30px;
+    width: 100px;
+    position: relative;
+    top: 0px; /* es mi "y"*/
+    left:350px /*es x*/
+}
+.verde{
+    font-size: 20px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    background-color: white;
+    border: 0px;
+    height: 30px;
+    width: 100px;
+    position: relative;
+    top: 0px; /* es mi "y"*/
+    left:350px /*es x*/
+}
+.amarillo{
+    font-size: 20px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    background-color: white;
+    border: 0px;
+    height: 30px;
+    width: 100px;
+    position: relative;
+    top: 0px; /* es mi "y"*/
+    left:350px /*es x*/
+}
+.seleccion
+{ font-size: 20px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    background-color: white;
+    border: 0px;
+    height: 30px;
+    width: 100px;
+    position: relative;
+    top: 0px; /* es mi "y"*/
+    left:350px /*es x*/
+
+}
+.texto{
+    position: relative;
+    top: 0px; /* es mi "y"*/
+    left:350px /*es x*/
+}
+.boton
+{
+    font-size: 20px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    background-color: white;
+    border: 0px;
+    height: 30px;
+    width: 100px;   
+    position: relative;
+    top: 0px; /* es mi "y"*/
+    left:350px /*es x*/
 }

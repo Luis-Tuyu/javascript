@@ -9,26 +9,34 @@
     <title>Practicas de elementos</title>
 </head>
 <body>
-    <h1 class="tit1">Práctica "cambio de colores"</h1>
+    <h1 class="tit1">PRACTICA-"CAMBIO DE COLORES"</h1>
     <!--Seleccionar los colores-->
-    <select id="myseleccion"  onchange="colorchange()">
+    <select id="myseleccion"  onchange="colorchange()" class="seleccion">
         <option value="red">rojo</option>
         <option value="green">verde</option>
         <option value="blue">azul</option>
     </select>
-    <h2 id="texto"></h2>
+    <h2 id="texto" class="texto"></h2>
     <!--cambiar el color del texto-->
     <br>
-    <select id="texto_color" onchange="changecolor_text()">
+    <h2 class="texto">Cambiar el color del texto</h2>
+    <select id="texto_color" onchange="changecolor_text()" class="boton">
         <option value="red"> ROJO</option>
         <option value="green">verde</option>
+        <option value="yellow">amarillo</option>
+        <option value="purple">morado</option>
+        <option value="white">blanco</option>
     </select>
-    <p id="t">texto de prueb   a</p>
+    <p id="t" class="texto"><b>Si puedes imaginarlo, puedes programarlo</b></p>
     <!--Cambiar el color con el prompt-->
     <br>
-    <h2>Cambiar el texto con promot</h2>
+    <h2 class="text2">CAMBIAR EL TEXTO CON PROMPT</h2>
     <p id="text2" class="text2">A veces la vida no es justa con todos</p>
-    <h3 id="mensaje">resultado</h3>
+    <h3 id="mensaje" class="text2">resultado</h3>
+    <!--cambiar con botones-->
+    <button class="morado" onclick="changecolor_boton('#8149B3')">morado</button>
+    <button class="amarillo" onclick="changecolor_boton('#FAFF9C')">amarillo</button>
+    <button class="verde" onclick="changecolor_boton('#2A8019')">verde</button>
     <script type="text/javascript" src="js/din_p.js"></script>
 </body>
 </html>
