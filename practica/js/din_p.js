@@ -1,30 +1,29 @@
-function capturar()
-{
-    var color= prompt("ingresa un color", "");
-    return color;
+//cambia el color del fondo
+function colorchange()
+{var seleccion = document.getElementById("myseleccion").value;
+document.getElementById("texto").innerHTML = "seleccionaste: "+ seleccion;
+document.body.style.backgroundColor = seleccion;
 }
-var color_us=capturar();
-var id=document.getElementById("prueba");
-console.log("id:");
-console.log(id);
-if(color_us === "verde")
-{
-    console.log("color: "+color_us);
-}else if(color_us === "amarillo")
-{
-    console.log("color: "+color_us)
-}else if(color_us === "azul")
-{
-    console.log("color: "+color_us)
-}else if(color_us === "rojo")
-{
-console.log("color: "+color_us);
-}else {
-    console.log("Error, recarga la página e ingresa un color valido");
-    //obtenedremos un elemento del DOM y lo cambiaremos
-    var clas=document.getElementsByClassName("uno");
-    console.log("imprimimos la etiqueta", clas);
-    
+//cambia el color del texto
+function changecolor_text()
+{var colortxt =  document.getElementById("texto_color").value ; 
+t.style.color = colortxt;
 }
-//obtener un id
-
+//ejecutamos el prompt
+var dato = prompt("ingresa un color","0");
+//console.log(dato);
+var resultado = changecolor2_text(dato);
+//cambiar el color del texto con prompt, c será el texto ingresado en prompt
+function changecolor2_text(c)
+{ 
+    if(c == "rojo")
+    {text2.style.color = "red";
+    document.getElementById("mensaje").innerHTML = "color: "+c;
+    }else if(c == "verde"){
+        text2.style.color = "green";
+        document.getElementById("mensaje").innerHTML = "color: "+c;
+    }else{
+        //lo pondremos en una etiqueta html
+        document.getElementById("mensaje").innerHTML = "ERROR, color no válido";
+    }  
+}
