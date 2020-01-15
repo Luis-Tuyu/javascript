@@ -210,3 +210,11 @@ Listeners: buscamos elementos en el DOM
     b = b || 0; checa si b, tiene valor, pero si no, será undefined y por lo tanto, 
     esta será falso, entonces se le asignará 0;
     Si ya tiene valor, entonces ignora el 0
+
+***********************video 13, funciones ************************
+metodos con arreglos
+-arreglo.sort(), ordena por unicode
+-arreglo.reverse(), pone alrevez el arreglo
+-con spli(","), con este metodo convertirmos un string en un arreglo de caracteres
+        ---ver en la practica-----
+-join, convertir un arreglo de caracteres en un string
