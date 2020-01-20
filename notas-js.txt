@@ -231,3 +231,7 @@ metodos con arreglos
 -permite iterar cad uno de los elementos del arreglo
 -es como un for, pero mas simple
 -solamente lo lee, si quieres modificarlo debes de acceder al dato con el index del arreglo
+*************************video 17, reduce**********************************
+-sirve par recorrer un arreglo e ir uniendo caracteres y dejarlo en una cadena
+-de igual manera podemos sumar todos los valores de un arreglo
+
