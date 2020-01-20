@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+
+<body>
+    <button id="btn">click</button>
+    <script>
+        (function() {
+
+            document.getElementById("btn").addEventListener("click", function() {
+                console.log("Hizo clic en mi")
+            });
+        })(); //funcion que se llame a si misma
+
+        //declaracion de un closure, similar a clases
+        function hola(nombre) {
+            function construct() {
+                return "Hola " + nombre;
+            }
+            return construct();
+        }
+
+        //ejecutamos dicha funcion en otra funcion
+        setTimeout(function() {
+            console.log(hola("Código facilito"));
+        }, 2000); //tiempo de espera para ejecutar la funcion
+    </script>
+</body>
+
+</html>
