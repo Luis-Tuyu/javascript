@@ -218,3 +218,16 @@ metodos con arreglos
 -con spli(","), con este metodo convertirmos un string en un arreglo de caracteres
         ---ver en la practica-----
 -join, convertir un arreglo de caracteres en un string
+
+*****************video 14, filter**********************
+-filter es un atributo de un arreglo y tiene como parametro una funcion 
+-su proposito es crear un nuevo arreglo
+-el arreglo devuelve un valor que cumpla una condición, es decir que su valor booleano sea true
+
+****************video 15,map*************
+-itera todos los elementos, devolviendo un nuevo arreglo
+-se le puede hacer simplemente un asignacion sin booleano
+*************video 16, foreach******************
+-permite iterar cad uno de los elementos del arreglo
+-es como un for, pero mas simple
+-solamente lo lee, si quieres modificarlo debes de acceder al dato con el index del arreglo
