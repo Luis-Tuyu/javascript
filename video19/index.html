@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+
+<body>
+    <h1>Aprendiendo un poco de JSON</h1>
+    <h3>Javascript Object Notation</h3>
+    <p>Estos datos son similares a los diccionarios, como en python usamos este tipo de estructura</p>
+    <script>
+        //parecido a los diccionarios
+        var curso = {
+            titulo: "Curso de javascript",
+            videos: 19,
+            tutor: "uriel",
+            intoduccion: function() {
+                console.log("Bienvenido al curso de: " + this.titulo + " que tiene " + this.videos);
+            },
+            otrfuncion: function() {
+                alert("otra función");
+            }
+        };
+
+        console.log(curso.intoduccion());
+        console.log(curso["titulo"]);
+    </script>
+</body>
+
+</html>
