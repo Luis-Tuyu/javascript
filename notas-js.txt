@@ -255,3 +255,9 @@ metodos con arreglos
 -a los json tambien podemos incluir funciones
 -this, podemos acceder a otros elementos del mismo json
 -se comporta como un diccionario, un objeto en js
+
+
+**********************video20_declarar_objetos_con_funcioness******************
+-creamos objetos a partir de funciones	
+-podemos declarar varias veces el mismo contructor com en java
+
