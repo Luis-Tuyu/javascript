@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=+, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+
+<body>
+
+
+    <script>
+        function tutor(nombre, apellido) {
+            this.nombre = nombre;
+            this.saludar = function() {
+                console.log("Hola a todos soy" + this.nombre);
+            }
+
+            if (typeof apellido !== "undefined") {
+                this.nombre_compledo = nombre + " " + apellido
+
+            }
+        }
+
+        var uriel = new tutor("uriel", "hernandez"); //creando un objeto
+        uriel.saludar();
+        console.log("mombre completo: " + uriel.nombre_compledo)
+
+        console.log("aprendiendo usar a prototype");
+        console.log(uriel.__proto__);
+
+        //agregando atributos luego de crear el objeto
+        uriel.cansancion = 90; //solo se agrega a uriel y no ha otro prototipo
+        uriel.funcion2 = function() {
+            console.log("texto de prueba");
+        }
+
+        //agregar atributos y funciones a un objeto que ha sido declarado
+        //esto para que otros objetos lo lean
+        tutor.prototype.edad = 22;
+
+        console.log("edad uriel: " + uriel.edad);
+    </script>
+</body>
+
+</html>

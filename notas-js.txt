@@ -261,3 +261,11 @@ metodos con arreglos
 -creamos objetos a partir de funciones	
 -podemos declarar varias veces el mismo contructor com en java
 
+
+*********************video21_prototype****************************************+
+-es ilegible para el usuario
+-__proto__: hace referencia al padre del objeto, el cual devuelve el nombre de la funcion
+-hace referencia al prototipo del cual se creo en javascript
+-podemos crear otros atributos o metodos, una vez se haya creado el objetiio
+-si creamos 2 objetos y agregamos un atributo, solo se hará a un objeto
+- con prototype, se agrega directament al prototypo.

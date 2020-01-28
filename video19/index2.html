@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <h1>JUgando con los json</h1>
+
+    <script>
+        //creando JSON
+        var json = {
+            nombre: "Luis",
+            apellido: "Tuyu",
+            edad: 20,
+            peso: 70,
+            saludar: function saludar(texto) {
+                console.log("Hola " + this.nombre + " el texto que ingresaste es: " + texto);
+            }
+
+        }
+        console.log("aprendiendo JS, es super importante");
+        console.log(json.saludar("aprendiendo json"));
+
+        //creando objetos con funciones
+        function sumatoria(num1, num2) {
+            num3 = num1 + num2
+            this.bucle = function() {
+                for (var a = 0; a < num3; a++) {
+                    num3 += a;
+                    console.log("-> " + num3);
+                }
+
+            }
+        }
+
+        var num1 = prompt("num1-> ");
+        var num2 = prompt("num2-> ");
+        var obj = new sumatoria(num1, num2);
+        //obj.bucle();
+    </script>
+</body>
+
+</html>
