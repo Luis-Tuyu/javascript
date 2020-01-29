@@ -269,3 +269,8 @@ metodos con arreglos
 -podemos crear otros atributos o metodos, una vez se haya creado el objetiio
 -si creamos 2 objetos y agregamos un atributo, solo se hará a un objeto
 - con prototype, se agrega directament al prototypo.
+
+
+*********************video22_getter_setter************************
+-son funciones a traves de la cual podemos modificar o leer, un atributo del objeto de una manera segura.
+-en las buenas prácticas de programacion orientada a objetos se accede por medio de los getter y los setters.

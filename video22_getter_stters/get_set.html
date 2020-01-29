@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <script>
+        var curso = {
+            titulo: "curso de javascript",
+            video: 22,
+            tutor_value: "Uriel",
+            get tutor() {
+                return this.tutor_value.toUpperCase();
+            },
+            set tutor(tutor) {
+                if (tutor === "" || (typeof tutor === "undefined")) {
+                    return;
+                }
+                this.tutor_value = tutor;
+            }
+        };
+
+        //esto era antes de EMC5
+        /* get_tutor: function() {
+                return this.tutor;
+            },
+            set_tutor: function(tutor) {
+                if (tutor === "")
+                    this.tutor = tutor;
+            }
+        
+        */
+        //curso.set_tutor("luis");
+        curso.tutor = "luis"
+        console.log(curso.tutor);
+    </script>
+</body>
+
+</html>
