@@ -39,6 +39,24 @@
         //curso.set_tutor("luis");
         curso.tutor = "luis"
         console.log(curso.tutor);
+
+
+        /*-----------------------------------------------------*/
+        var persona = {
+            nombre_val: "Luis",
+            edad: 20,
+            ciudad: "Mérida",
+            get nombre() {
+                return this.nombre_val;
+            },
+            set nombre(nombre_par) {
+                this.nombre_val = nombre_par;
+            }
+        }
+
+        console.log("nombre: " + persona.nombre);
+        persona.nombre = "Daniela"; //cuando
+        console.log("Nuevo nombre: " + persona.nombre);
     </script>
 </body>
 

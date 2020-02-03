@@ -27,6 +27,22 @@
         var uriel = new tutor("uriel", "hernandez"); //creando un objeto
         uriel.saludar();
         console.log("mombre completo: " + uriel.nombre_compledo)
+
+        /*---------------------------práctica--------------------------------------*/
+        function alumnos(matricula, nombre_alumn, ingreso) {
+            this.matricula = matricula;
+            this.nombre_alum = nombre_alumn;
+            this.ingreso = ingreso;
+
+            this.mostrar = function() {
+                console.log("matricula: " + this.matricula);
+                console.log("nombre: " + this.nombre_alumn);
+                console.log("Ingreso: " + this.ingreso);
+            }
+        }
+
+        var alumn1 = new alumnos("E17081482", "Luis Francisco", 6);
+        alumn1.mostrar();
     </script>
 
 </body>

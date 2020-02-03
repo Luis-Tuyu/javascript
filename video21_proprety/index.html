@@ -42,6 +42,32 @@
         tutor.prototype.edad = 22;
 
         console.log("edad uriel: " + uriel.edad);
+
+
+
+
+        /*-------------------------------------------------------------------------------*/
+        //prácticas con propety
+
+        function usuario(nombre, edad) {
+            this.nombre = nombre;
+            this.edad = edad;
+            this.completo = this.nombre + "tuyu padron";
+            this.datos = function() {
+                console.log("edad: " + this.edad);
+                console.log("nombre: " + this.nombre);
+            }
+
+
+        }
+        //¿por que funciona con this nadamas?
+        var luis = new usuario("Luis", 20); //constructor de ub objeto
+        luis.datos();
+        console.log(luis.completo);
+
+        console.log(usuario.__proto__);
+        usuario.prototype.altura = 1.60;
+        console.log(luis.altura);
     </script>
 </body>
 
