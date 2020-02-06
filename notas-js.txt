@@ -283,3 +283,8 @@ referencia al objeto
 -podemos acceder a la funcion anonima porque lo estamos haciendo
 con el objeto windows
 -window: es un scope global, podemos acceder por el self
+
+
+********************video24_practiva#2 MVC****************************}
+helper methods: métodos  que no le pertenecen a un objeto, pero 
+que nos ayudan a realizar ciertas cosas
