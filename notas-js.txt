@@ -288,3 +288,8 @@ con el objeto windows
 ********************video24_practiva#2 MVC****************************}
 helper methods: métodos  que no le pertenecen a un objeto, pero 
 que nos ayudan a realizar ciertas cosas
+
+******************video25_practica_parte3*****************************
+down y up
+console.log(ev.keyCode);, no sirve para ver el codigo que temos del teclado
+-toString, estamos convirtiendo a una cadena las posiciones del código
