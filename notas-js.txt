@@ -301,3 +301,22 @@ console.log(ev.keyCode);, no sirve para ver el codigo que temos del teclado
 
 *********************funciones fecla**************
 otra forma de declarar 
+
+
+*************************video29_templatestring*****************
+-se declaran con las comillas invertidas ``
+-puedes colocar espacios y enter, y los reconocera
+-string multilineas, sin problemas
+-interpolación: es imprimir una variable dentro de una cadena de 
+texto sin concatenar, parecido a python
+-plantillas etiquetadas:te devuelve los valores usados en los template strings
+así como sus valores
+
+***********************video30arrowfunctions************************ 
+-es una notacións
+-sirve para sustituir la palabra function, por =>
+-alternativa para keyword "function"
+-hereda el scope del padre, en las clases, y cuando usamos this, nos hacemos
+referencia al padre y si modificamos el this, sale con el cambio hecho.
+
+

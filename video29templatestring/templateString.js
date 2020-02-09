@@ -18,4 +18,4 @@ function tagged(cadena, valor) {
     console.log(valor);
 }
 var accion = "programar";
-tagged `Hola, buenos días ${"Luis"+"francisco"}, es un buen día para ${"programar"}`;
+tagged `Hola, buenos días ${"Luis francisco"}, es un buen día para ${"programar"}`;
